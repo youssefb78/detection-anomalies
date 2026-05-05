@@ -1,0 +1,22 @@
+{
+  "exigences": [
+    {
+      "id": "EXG-001",
+      "description": "La température ne doit pas dépasser 120°C",
+      "seuil_max": 120,
+      "seuil_min": null
+    },
+    {
+      "id": "EXG-002", 
+      "description": "La température ne doit pas descendre sous 30°C",
+      "seuil_max": null,
+      "seuil_min": 30
+    },
+    {
+      "id": "EXG-003",
+      "description": "Le Z-Score ne doit pas dépasser 3",
+      "seuil_max": 3,
+      "seuil_min": null
+    }
+  ]
+}
